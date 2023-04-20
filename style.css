@@ -1,0 +1,29 @@
+#game-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#square { 
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#result { 
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1, #start-button { 
+    text-align: center;
+}
+
+#reset-button { 
+    display: none;
+    margin-top: 20px;
+}
